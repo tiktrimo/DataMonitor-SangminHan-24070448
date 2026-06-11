@@ -1,5 +1,7 @@
 # DataMonitor-SangminHan-24070448
 
+> **[POC Stage]** 현재 개념 검증(Proof of Concept) 단계입니다. 구현 코드는 포함되지 않습니다.
+
 ## POC: 데이터 모니터링 Tool
 
 현재 저장된 데이터 상태를 콘솔에서 실시간 조회할 수 있는 관리자 도구 PoC 레포지토리입니다.
