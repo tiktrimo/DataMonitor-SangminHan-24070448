@@ -27,6 +27,24 @@ DataMonitor-SangminHan-24070448/
   DataMonitor.sln
 ```
 
+## 빌드 및 실행 결과
+
+```
+[ 주문량 현황 ]
+  RESERVED  : 2건
+  PRODUCING : 1건
+  CONFIRMED : 1건
+  RELEASE   : 1건  (REJECTED 제외 확인)
+
+[ 재고 현황 ]
+  S-001 실리콘 웨이퍼-8인치  480ea  대기150ea  [여유]
+  S-003 SiC 파워기판-6인치    30ea  대기200ea  [부족]
+  S-004 산화막 웨이퍼-SiO2     0ea  대기  0ea  [고갈]
+```
+
+- Build: MSBuild Debug|x64 — 에러/경고 없음
+- 여유/부족/고갈 상태 분류 및 REJECTED 제외 로직 검증 완료
+
 ## 표시 항목
 
 | 항목 | 내용 |
